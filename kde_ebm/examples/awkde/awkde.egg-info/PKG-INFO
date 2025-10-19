@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: awkde
+Version: 0.1
+Summary: Adaptive width gaussian KDE
+Home-page: https://github.com/mennthor/awkde
+Author: Thorben Menne
+Author-email: thorben.menne@tu-dortmund.de
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pybind11
+Requires-Dist: future
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
