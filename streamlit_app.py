@@ -49,8 +49,8 @@ def main():
         prob_mat = mixture_model.get_prob_mat(X, mixture_models)
         stages, stages_like = ml_order.stage_data(prob_mat)
 
-        fig, ax = plt.subplots(figsize=(12, 6))  
-        plotting.stage_histogram(stages, y)  
+        # Plot the stage histogram
+        fig, ax = plotting.stage_histogram(stages, y)
         st.pyplot(fig)
 
         # Display the stages as a DataFrame
